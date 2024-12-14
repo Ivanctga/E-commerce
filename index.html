@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivan Lopes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-commerce Nike</title>
+</head>
+<body>
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">Logo</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#featured">Featured</a>
+            <a href="#review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Cinza shoes</span>
+                    <h3>Nike Air Max Plus TN shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquid esse vero vitae quasi voluptatem rem dignissimos dolorem porro voluptas!</p>
+                    <a href="#" class="btn">add to card</a>
+                </div><!--content-->
+
+                <div class="image">
+                    <img src="img/tenis1.png" class="shoe" alt="">                    
+                </div><!--image-->
+                
+            </div><!--slider-->
+        </div><!--slider-container-->
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Oranje shoes</span>
+                    <h3>Nike Air Max Plus TN shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquid esse vero vitae quasi voluptatem
+                        rem dignissimos dolorem porro voluptas!</p>
+                    <a href="#" class="btn">add to card</a>
+                </div><!--content-->
+
+                <div class="image">
+                    <img src="img/tenis2.png" class="shoe" alt="">                    
+                </div><!--image-->
+        
+            </div><!--slider-->
+        </div><!--slider-container-->
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike blue shoes</span>
+                    <h3>Nike Air Max Plus TN shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquid esse vero vitae quasi voluptatem
+                        rem dignissimos dolorem porro voluptas!</p>
+                    <a href="#" class="btn">add to card</a>
+                </div><!--content-->
+
+                <div class="image">
+                    <img src="img/tenis3.png" class="shoe" alt="">                   
+                </div><!--image-->
+        
+            </div><!--slider-->
+        </div><!--slider-container-->
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike red shoes</span>
+                    <h3>Nike Air Max Plus TN shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquid esse vero vitae quasi voluptatem
+                        rem dignissimos dolorem porro voluptas!</p>
+                    <a href="#" class="btn">add to card</a>
+                </div><!--content-->
+
+                <div class="image"><!--image-->
+                    <img src="img/tenis4.png" class="shoe" alt="">                   
+                </div>
+        
+            </div><!--slider-->
+        </div><!--slider-container-->
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike colorfur shoes</span>
+                    <h3>Nike Air Max Plus TN shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquid esse vero vitae quasi voluptatem
+                        rem dignissimos dolorem porro voluptas!</p>
+                    <a href="#" class="btn">add to card</a>
+                </div><!--content-->
+        
+                <div class="image"><!--image-->
+                    <img src="img/tenis5.png" class="shoe" alt="">
+                </div>
+        
+            </div><!--slider-->
+        </div><!--slider-container-->
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike white shoes</span>
+                    <h3>Nike Air Max Plus TN shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquid esse vero vitae quasi voluptatem
+                        rem dignissimos dolorem porro voluptas!</p>
+                    <a href="#" class="btn">add to card</a>
+                </div><!--content-->
+        
+                <div class="image"><!--image-->
+                    <img src="img/tenis6.png" class="shoe" alt="">
+                </div>
+        
+            </div><!--slider-->
+        </div><!--slider-container-->
+
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+    </section><!--home-->
+
+    <section class="service">
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Fast delivery</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, aliquam.</p>
+            </div><!--box-->
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>10 days replacements</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, aliquam.</p>
+            </div><!--box-->
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24 x 7 support</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, aliquam.</p>
+            </div><!--box-->
+
+        </div><!--box-container-->
+
+    </section><!--service-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> latest <span>products</span> </h1>
+
+        <div class="box-container">           
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>                   
+                    <a href="#" class="fas fa-eye"></a>
+                    
+                </div><!--icons-->
+
+                <img src="img/product-1.png" alt="">
+
+                <div class="content">
+                    <h3>Nike Air Max</h3>
+                    <div class="price">R$120.99 <span>R$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div><!--stars-->
+                    <a href="#" class="btn">add to cart</a>
+                </div><!--content-->
+
+            </div><!--box-->
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div><!--icons-->
+            
+                <img src="img/product-2.png" alt="">
+
+                <div class="content">
+                    <h3>Nike Air Vapor Max</h3>
+                    <div class="price">R$120.99 <span>R$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div><!--stars-->
+                    <a href="#" class="btn">add to cart</a>
+                </div><!--content-->
+            
+            </div><!--box-->
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div><!--icons-->
+            
+                <img src="img/product-3.png" alt="">
+
+                <div class="content">
+                    <h3>Nike Air Max Zoom</h3>
+                    <div class="price">R$120.99 <span>R$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div><!--stars-->
+                    <a href="#" class="btn">add to cart</a>
+                </div><!--content-->
+            
+            </div><!--box-->
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div><!--icons-->
+            
+                <img src="img/product-4.png" alt="">
+
+                <div class="content">
+                    <h3>Nike Mair Max 90</h3>
+                    <div class="price">R$120.99 <span>R$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div><!--stars-->
+                    <a href="#" class="btn">add to cart</a>
+                </div><!--content-->
+            
+            </div><!--box-->
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div><!--icons-->
+            
+                <img src="img/product-5.png" alt="">
+
+                <div class="content">
+                    <h3>Nike Air Zoom Nest%</h3>
+                    <div class="price">R$120.99 <span>R$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div><!--stars-->
+                    <a href="#" class="btn">add to cart</a>
+                </div><!--content-->
+            
+            </div><!--box-->
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div><!--icons-->
+            
+                <img src="img/product-6.png" alt="">
+
+                <div class="content">
+                    <h3>Nike Air Columm</h3>
+                    <div class="price">R$120.99 <span>R$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div><!--stars-->
+                    <a href="#" class="btn">add to cart</a>
+                </div><!--content-->
+            
+            </div><!--box-->            
+
+        </div><!--box-container-->
+    </section><!--products-->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>featured</span> products</h1>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/air-max-1.1.png" class="featured-image-1" alt="">
+                    <img src="img/air-max-1.2.png" class="featured-image-1" alt="">
+                    <img src="img/air-max-1.3.png" class="featured-image-1" alt="">
+                    <img src="img/air-max-1.4.png" class="featured-image-1" alt="">
+                </div><!--small-image-->
+
+                <div class="big-image">
+                    <img src="img/air-max-1.1.png" class="big-image-1" alt="">
+                </div><!--big-image-->
+            </div><!--image-container-->
+
+            <div class="content">
+                <h3>new nike airmax shoes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div><!--stars-->
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam reiciendis eaque! Quos sit dolor rem cumque vel porro ut!</p>
+
+                <div class="price">R$80.99 <span>R$120.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div><!--content-->
+
+        </div><!--row-->
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/air-max-2.1.png" class="featured-image-2" alt="">
+                    <img src="img/air-max-2.2.png" class="featured-image-2" alt="">
+                    <img src="img/air-max-2.3.png" class="featured-image-2" alt="">
+                    <img src="img/air-max-2.4.png" class="featured-image-2" alt="">
+                </div><!--small-image-->
+        
+                <div class="big-image">
+                    <img src="img/air-max-2.1.png" class="big-image-2" alt="">
+                </div><!--big-image-->
+        
+            </div><!--image-container-->
+        
+            <div class="content">
+                <h3>new nike airmax shoes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div><!--stars-->
+        
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam reiciendis eaque! Quos sit dolor rem
+                    cumque vel porro ut!</p>
+        
+                <div class="price">R$80.99 <span>R$120.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+        
+            </div><!--content-->
+        
+        </div><!--row-->
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/air-max-3.1.png" class="featured-image-3" alt="">
+                    <img src="img/air-max-3.2.png" class="featured-image-3" alt="">
+                    <img src="img/air-max-3.3.png" class="featured-image-3" alt="">
+                    <img src="img/air-max-3.4.png" class="featured-image-3" alt="">
+                </div><!--small-image-->
+        
+                <div class="big-image">
+                    <img src="img/air-max-3.1.png" class="big-image-3" alt="">
+                </div><!--big-image-->
+        
+            </div><!--image-container-->
+        
+            <div class="content">
+                <h3>new nike airmax shoes</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div><!--stars-->
+        
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam reiciendis eaque! Quos sit dolor rem
+                    cumque vel porro ut!</p>
+        
+                <div class="price">R$80.99 <span>R$120.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+        
+            </div><!--content-->
+        
+        </div><!--row-->
+
+    </section><!--featured-->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> Customer's <span>review</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img/pes-1.jpg" alt="">
+                <h3>Marcus Paulo</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolor debitis, nobis beatae inventore quidem veniam, iste aliquid voluptas earum neque, odit quisquam. Ut molestias quibusdam perspiciatis impedit molestiae qui?</p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div><!--stats-->
+
+            </div><!--box-->
+
+            <div class="box">
+                <img src="img/pes-2.jpg" alt="">
+                <h3>Beatriz Pinheiro</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolor debitis, nobis beatae inventore quidem
+                    veniam, iste aliquid voluptas earum neque, odit quisquam. Ut molestias quibusdam perspiciatis impedit molestiae
+                    qui?</p>
+            
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star-half-alt"></i>
+                </div><!--stats-->
+            
+            </div><!--box-->
+
+            <div class="box">
+                <img src="img/pes-3.jpg" alt="">
+                <h3>Julia Marinho</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolor debitis, nobis beatae inventore quidem
+                    veniam, iste aliquid voluptas earum neque, odit quisquam. Ut molestias quibusdam perspiciatis impedit molestiae
+                    qui?</p>
+            
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div><!--stats-->
+            
+            </div><!--box-->
+
+        </div><!--box-container-->
+
+    </section><!--review-->
+
+    <section class="newsletter">
+
+        <div class="content">
+            <h3>monthly newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea rem quod quasi corrupti deleniti ipsa ipsum temporibus voluptatum alias vero.</p>
+
+            <form action="">
+                <input type="email" name="email" class="box" placeholder="digite seu e-mail..." id="">
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </div><!--content-->
+
+    </section><!--newsletter-->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our stores</h3>
+                <a href="#">Brasil</a>
+                <a href="#">USA</a>
+                <a href="#">França</a>
+                <a href="#">Japão</a>
+            </div><!--box-->
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Featured</a>
+                <a href="#">Review</a>
+            </div><!--box-->
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my favorite</a>
+                <a href="#">me orders</a>
+                <a href="#">newsletter</a>
+            </div><!--box-->
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkein</a>
+            </div><!--box-->
+
+            <div class="credit">created by <span> mr. web designer </span> | all rights reserved!</div>
+        </div><!--box-container-->
+    </section><!--footer-->   
+    
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
